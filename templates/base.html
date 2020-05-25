@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
+    <title>kiwisflight</title>
+    {% block head %}{% endblock head %}
+</head>
+<body>
+<header>
+</header>
+<main>
+    {% block main %}{% endblock main %}
+</main>
+<footer>
+    {% block footer %}{% endblock footer %}
+</footer>
+</body>
+</html>

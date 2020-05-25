@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock head %}
+
+{% block main %}
+    <p>Hi!</p>
+    <p>Welcome to kiwisflight.com</p>
+    <img style="padding: 10%;" src="{{url_for('static', filename='images/kiwi.png')}}" alt="kiwisflight logo" width="25%" height="25%">
+{% endblock main %}
+{% block footer %}
+    <p style="padding-right: 2%;">My name is Sooyoung. <a href="mailto: kiwisflight@gmail.com">Contact me</a></p>
+{% endblock footer %}

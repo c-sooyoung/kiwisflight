@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    font-family: 'courier new';
+}
+
+main {
+    text-align: center;
+    font-size: 150%;
+    padding: 10%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+    text-align: right;
+    font-size: 100%;
+    background: black;
+    color: white;
+}
+
+a:link {
+  color: lightskyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: thistle;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: palegreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
